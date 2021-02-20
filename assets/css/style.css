@@ -61,7 +61,18 @@
   margin-bottom: 20%;
 }
 
-@media only screen and (min-width:993px){
+@media only screen and (min-width:1134px){
+
+  .featuredContent-container{
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (min-width:1200px){
+.featuredContent{
+  overflow-y: scroll;
+  height: 55em;
+  }
   .otherChannels-container{
     background-color: #f8f8f8;
     padding: 5px 20px 20px 15px;
@@ -74,19 +85,13 @@
     animation-duration: 1.5s;
     transition-timing-function: cubic-bezier(0.795, 0, 0.165, 1);
   }
-  .featuredContent-container{
-    flex-wrap: nowrap;
-  }
-  .featuredContent{
-    overflow-y: scroll;
-    height: 55em;
-  }
   .featuredContent::-webkit-scrollbar {
     display: none;
     }
-}
+  }
 
-@media only screen and (max-width:992px){
+
+@media only screen and (max-width:1133px){
   .featuredContent-container{
     width:80%;
     flex-wrap: nowrap;
