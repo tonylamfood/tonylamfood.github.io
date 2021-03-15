@@ -6,3 +6,5 @@ $("#mewe") .mouseover(function () {
     this.src= "assets/img/logo/TheMeWeLogo-red.png";
     $("img").css("border-color","#E51200");
 });
+
+$("#etsyRamen").load("assets/blog/etsy.html #ramenShirt");
