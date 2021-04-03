@@ -98,7 +98,7 @@
 @media only screen and (max-width:1133px){
   .featuredContent-container{
     width:80%;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
   .otherChannels-container{
     flex-wrap: nowrap;
