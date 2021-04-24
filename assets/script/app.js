@@ -7,6 +7,7 @@ $("#mewe") .mouseover(function () {
     $("img").css("border-color","#E51200");
 });
 
+
 $("#etsyRamen").load("assets/blog/etsy.html #ramenShirt");
 
 $("#mawanVlog").load("assets/blog/mawanVlog.html #mawanVlog");
