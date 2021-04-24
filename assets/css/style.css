@@ -64,7 +64,7 @@
 @media only screen and (min-width:1134px){
 
   .featuredContent-container{
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   .featuredContent-card{
     flex: 300px;
@@ -98,7 +98,7 @@
 @media only screen and (max-width:1133px){
   .featuredContent-container{
     width:100%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .otherChannels-container{
@@ -191,6 +191,27 @@ img {
   transition-timing-function: cubic-bezier(0.795, 0, 0.165, 1);
 }
 
+.oldVersion-card {
+  justify-self: center;
+  background-color: #f8f8f8;
+  flex: 100px;
+  min-height: 0px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 20px 20px 15px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -10px -10px 0px 0px #e51200;
+  border-radius: 50px;
+  -webkit-animation-name: shadow-show;
+  -webkit-animation-duration: 1.5s;
+  animation-name: shadow-show;
+  animation-duration: 1.5s;
+  transition-timing-function: cubic-bezier(0.795, 0, 0.165, 1);
+  width: fit-content;
+}
+
 .featuredContent-card img, .featuredContent-card iframe {
   width: 300px;
   height: 300px;
@@ -209,6 +230,21 @@ img {
   filter: blur(4px);
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
+
+}
+
+.img-overlay{
+  position: relative;
+  text-align: center;
+
+}
+.img-overlay .hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f8f8f8;
+  opacity: 0;
 }
 
 .featuredContent-card p {
