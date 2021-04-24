@@ -210,6 +210,7 @@ img {
   animation-duration: 1.5s;
   transition-timing-function: cubic-bezier(0.795, 0, 0.165, 1);
   width: fit-content;
+  align-items: center;
 }
 
 .featuredContent-card img, .featuredContent-card iframe {
