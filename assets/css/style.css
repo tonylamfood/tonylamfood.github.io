@@ -142,6 +142,9 @@
   .title{
     display: none;
   }
+  .header-container {
+    margin-bottom: 55px;
+  }
   body{
     padding-top: 20px !important;
     padding-right: 10px !important;
